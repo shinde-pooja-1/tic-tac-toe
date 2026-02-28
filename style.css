@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
   color: var(--colo);
   background-color: var(--bg);
+  height: 100vh;
 }
 :root {
   --bg: white;
@@ -42,30 +43,35 @@ main {
   align-items: center;
   flex-direction: column;
 }
-ul {
-  height: 15%;
-}
+
 .boxes {
-  width: 85vmin;
-  height: 88vmin;
+  width: 65vmin;
+  height: 65vmin;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 4vmin;
+}
+
+.box {
+  border: none;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  background-color: var(--bg);
+  color: rgb(48, 142, 243);
+
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
-  column-gap: 5%;
+
+  font-size: 3.4rem;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
 }
-.box {
-  width: 27%;
-  height: 28%;
-  border: none;
-  border-radius: 10px;
-  box-shadow: var(--shadow);
-  color: rgb(48, 142, 243);
-  display: grid;
-  background-color: var(--bg);
-  place-content: center;
-  font-size: 3.5rem;
-}
+
 .box:hover {
   box-shadow: 2px 2px 40px rgb(48, 142, 243);
 }
