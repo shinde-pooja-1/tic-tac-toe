@@ -80,7 +80,7 @@ tic-tac-toe/
 
 📸 Preview
 
-[Tic Tac Toe Screenshot](tic-toc-toe-preview.png)
+[Tic Tac Toe Screenshot](tic-tac-toe-preview.png)
 
 👩‍💻 Author
 
