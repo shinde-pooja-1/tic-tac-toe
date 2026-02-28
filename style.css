@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-size:clamp(20px,4vw,35px);
+}
+
+body{
+    overflow-x: hidden;
+    color:var(--colo);
+    background-color: var(--bg);
+}
+:root{
+    --bg:white;
+    --colo:black;
+    --coloc: white;
+    --shadow:  15px 15px 10px rgba(0, 0, 0, 0.402);
+    --bgp: rgba(0, 0, 0, 0.6);
+    --text: "dark";
+}
+.change-color{
+    --colo: white;
+    --coloc: black;
+    --bg: rgba(35, 35, 35, 0.953);  
+    --shadow:  15px 15px 30px rgba(174, 219, 244, 0.95);
+    --bgp: rgba(243, 240, 240, 0.54);
+    --text: "light";
+}
+header{
+    width: 100vw;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    color:var(--color);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.8rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    height: 15%;
+}
+.boxes{
+    width: 85vmin;
+    height: 88vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 5%;
+}
+.box{
+    width: 27%;
+    height: 28%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    color: rgb(48, 142, 243);
+    display: grid;
+    background-color: var(--bg);
+    place-content: center;
+    font-size: 3.5rem;
+}
+.box:hover{
+    box-shadow: 2px 2px 40px rgb(48, 142, 243);
+}
+.con{
+    visibility:hidden;
+    width: 45vmin;
+    height: 45vmin;
+    background-color: var(--bgp);
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    color: beige
+}
+.cancle{
+    margin-left: 90%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--coloc);
+}
+.win{
+    color: var(--coloc);
+    margin-top: 13%;
+    font-size:clamp(30px,5vw,55px);
+    filter: drop-shadow(2px 2px 3px rgb(34, 132, 238));
+}
+.new{
+    margin-top: 13%;
+    width: 55%;
+    height: 20%;
+    font-size: 0.8rem;
+    background-color:rgb(48, 142, 243);
+    border: none;
+    border-radius: 5px;
+    color: beige
+}
+.new:hover{
+    box-shadow:1px 1px 40px rgb(34, 132, 238);
+}
+.btn{
+    width: clamp(30vmin, 4vw, 30vmin);
+    height: clamp(13vmin, 2vw, 20vmin);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.dark:after{
+    content: var(--text);
+}
