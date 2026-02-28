@@ -6,8 +6,7 @@ This version introduces a dynamic gameplay rule:
 Each player can have a maximum of three active symbols on the board.
 When a fourth move is made, the oldest symbol is automatically removed, creating a continuously evolving board state.
 
-🔗 Live Demo:
-https://shinde-pooja-1.github.io/tic-tac-toe/
+🔗 [Live Demo](https://shinde-pooja-1.github.io/tic-tac-toe/)
 
 
 🚀 Features
@@ -81,11 +80,11 @@ tic-tac-toe/
 
 📸 Preview
 
-(Add a screenshot of your game here)
+[Tic Tac Toe Screenshot](tic-toc-toe-preview.png)
 
 👩‍💻 Author
 
 Pooja Shinde
 Frontend Developer | JavaScript Enthusiast
 
-GitHub: https://github.com/shinde-pooja-1
+🔗 [GitHub](https://github.com/shinde-pooja-1)
