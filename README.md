@@ -49,8 +49,6 @@ When a fourth move is made, the oldest symbol is automatically removed, creating
 
 ## 🧠 Game Logic Overview
 
-## 🧠 Game Logic Overview
-
 - ✅ Each player's moves are stored in an array.
 
 - ✅ When the array length exceeds 3:
