@@ -1,4 +1,4 @@
-🎮 Dynamic Tic Tac Toe
+## 🎮 Dynamic Tic Tac Toe
 
 An interactive browser-based Tic Tac Toe variant built using HTML, CSS, and JavaScript.
 
@@ -9,23 +9,23 @@ When a fourth move is made, the oldest symbol is automatically removed, creating
 🔗 [Live Demo](https://shinde-pooja-1.github.io/tic-tac-toe/)
 
 
-🚀 Features
+## 🚀 Features
 
-✅ Maximum 3 active symbols per player
-✅ Automatic removal of oldest move (FIFO logic)
-✅ Real-time win detection
-✅ Dynamic board state updates
-✅ Restart game functionality
-✅ Clean and responsive UI
-✅ Built with pure JavaScript (No frameworks)
+- ✅ Maximum 3 active symbols per player  
+- ✅ Automatic removal of oldest move (FIFO logic)  
+- ✅ Real-time win detection  
+- ✅ Dynamic board state updates  
+- ✅ Restart game functionality  
+- ✅ Clean and responsive UI  
+- ✅ Built with pure JavaScript (No frameworks)
 
 🛠 Tech Stack
 
-✅ HTML – Structure
-✅ CSS – Styling & Layout
-✅ JavaScript – Game Logic & State Management
+- ✅ HTML – Structure
+- ✅ CSS – Styling & Layout
+- ✅ JavaScript – Game Logic & State Management
 
-🎯 How to Play
+## 🎯 How to Play
 
 1. The game is played between two players:
      Player X
@@ -47,43 +47,55 @@ When a fourth move is made, the oldest symbol is automatically removed, creating
 7. Click the Restart button to reset the game and start again.
 
 
-🧠 Game Logic Overview
+## 🧠 Game Logic Overview
 
-✅ Each player's moves are stored in an array.
-✅ When the array length exceeds 3:
-     The first element (oldest move) is removed.
-✅ After every move:
-     The game checks for winning combinations.
-✅ The UI updates instantly to reflect the new state.
-✅ This demonstrates understanding of:
-       DOM manipulation
-       Event handling
-       Conditional logic
-       Array operations
-       Queue (FIFO) behavior
-       State synchronization
+## 🧠 Game Logic Overview
 
-📂 Project Structure
+- ✅ Each player's moves are stored in an array.
+
+- ✅ When the array length exceeds 3:
+  - The first element (oldest move) is removed.
+
+- ✅ After every move:
+  - The game checks for winning combinations.
+  - The UI updates instantly to reflect the new state.
+
+- ✅ This demonstrates understanding of:
+  - DOM manipulation
+  - Event handling
+  - Conditional logic
+  - Array operations
+  - Queue (FIFO) behavior
+  - State synchronization
+
+## 📂 Project Structure
 tic-tac-toe/
-│── index.html
-│── style.css
-│── script.js
+- │── index.html
+- │── style.css
+- │── script.js
 
 
-💡 Future Improvements
 
-✅ Add Player vs Computer (AI mode)
-✅ Add Score tracking system
-✅ Add Sound effects
-✅ Add Animations & transitions
-✅ Add Game history tracking
+---
 
-📸 Preview
+## 💡 Future Improvements
 
-[Tic Tac Toe Screenshot](tic-tac-toe-preview.png)
+- ✅ Add Player vs Computer (AI mode)
+- ✅ Add Score tracking system
+- ✅ Add Sound effects
+- ✅ Add Animations & transitions
+- ✅ Add Game history tracking
 
-👩‍💻 Author
+---
 
-Pooja Shinde | Frontend Developer | JavaScript Enthusiast
+## 📸 Preview
 
+![Tic Tac Toe Screenshot](tic-tac-toe-preview.png)
+
+---
+
+## 👩‍💻 Author
+
+**Pooja Shinde**  
+Frontend Developer | JavaScript Enthusiast
 🔗 [GitHub](https://github.com/shinde-pooja-1)
