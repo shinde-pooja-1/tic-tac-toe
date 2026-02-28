@@ -84,7 +84,7 @@ tic-tac-toe/
 
 👩‍💻 Author
 
-Pooja Shinde
+Pooja Shinde 
 Frontend Developer | JavaScript Enthusiast
 
 🔗 [GitHub](https://github.com/shinde-pooja-1)
